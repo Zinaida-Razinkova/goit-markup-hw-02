@@ -17,21 +17,35 @@
 .body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /*Шапка сайта*/
 .logo {
-  color: var(--accent-color);
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
 }
 .logo:hover,
 .logo:focus {
   color: var(--accent-color);
 }
+
+.logo .accent {
+  color: var(--accent-color);
+}
+
 .list {
   list-style: none;
 }
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link.current {
   color: var(--accent-color);
@@ -44,6 +58,10 @@
 
 .auth-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-nav .link:hover,
@@ -57,30 +75,87 @@
 
 .hero-title {
   color: var(--color-text-white);
+  font-style: 400;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
+
 /*Преимущества*/
 .advantages-title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
+
 .features .title {
   color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  font-weight: bold;
 }
+
+.features .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
 /*Чем мы занимаемся*/
 .section-title {
   color: var(--title-text-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  font-weight: 700;
 }
 /*Наша команда*/
-.features .social .link:hover,
-.features .social .link:focus {
+.features .name .link:hover,
+.features .name .link:focus {
   color: var(--accent-color);
 }
-.features .social .link {
+
+.features .name {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+}
+.features .text {
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19px;
 }
 
 /*Футер*/
+
+.logo-footer {
+  color: var(--color-text-white);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: var(--accent-color);
+}
+
+.logo-footer .accent {
+  color: var(--accent-color);
+}
+
 .contacts .title-address {
   color: var(--color-text-white);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .contacts .title-address:hover,
 .contacts .title-address:focus {
@@ -88,18 +163,23 @@
 }
 .contacts .title {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 .contacts .title:hover,
 .contacts .title:focus {
   color: var(--accent-color);
 }
-.social .link:hover,
-.features .social .link:focus {
+
+/* .name .link:hover,
+.features .name .link:focus {
   color: var(--accent-color);
 }
-.social .link {
+.name .link {
   color: var(--color-text-white);
-}
+} */
+
 .footer {
   background-color: var(--bg-color-footer);
 }
@@ -111,27 +191,48 @@
   color: var(--color-text-white);
   background-color: var(--accent-color);
   border: var(--accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
+
 /*css портфолио*/
-.body {
-  background-color: #ffffff;
-  color: var(--primary-text-color);
-}
+
 .portfolio .button {
   color: var(--title-text-color);
   background-color: var(--bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
 }
+
 .portfolio .button:focus,
 .portfolio .button:hover {
   color: var(--color-text-white);
   background-color: var(--accent-color);
 }
+
 .portfolio .link {
   color: var(--title-text-color);
-}
-.section .link {
-  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17px;
 }
 
-/* Roboto (жирный, медиум, регуляр
-Raleway болд - 700 */
+.section .link {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87px;
+  letter-spacing: 0.03em;
+}
