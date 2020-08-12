@@ -1,0 +1,137 @@
+/*основной цвет текста #757575*/
+/*вспомогательный цвет текста #212121*/
+/*акцент цвет текста #2196F3*/
+/*цвет текста белый #FFFFFF*/
+/*цвет фона основной #FFFFFF*/
+/*цвет фона вспомагательный #F5F4FA*/
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --color-text-white: #ffffff;
+  --primary-bg-color: #ffffff;
+  --bg-color: #f5f4fa;
+  --bg-color-footer: #2f303a;
+}
+
+.body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+/*Шапка сайта*/
+.logo {
+  color: var(--accent-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.hero {
+  background-color: var(--bg-color-footer);
+}
+
+.hero-title {
+  color: var(--color-text-white);
+}
+/*Преимущества*/
+.advantages-title {
+  color: var(--title-text-color);
+}
+.features .title {
+  color: var(--title-text-color);
+}
+/*Чем мы занимаемся*/
+.section-title {
+  color: var(--title-text-color);
+}
+/*Наша команда*/
+.features .social .link:hover,
+.features .social .link:focus {
+  color: var(--accent-color);
+}
+.features .social .link {
+  color: var(--primary-text-color);
+}
+
+/*Футер*/
+.contacts .title-address {
+  color: var(--color-text-white);
+}
+.contacts .title-address:hover,
+.contacts .title-address:focus {
+  color: var(--accent-color);
+}
+.contacts .title {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contacts .title:hover,
+.contacts .title:focus {
+  color: var(--accent-color);
+}
+.social .link:hover,
+.features .social .link:focus {
+  color: var(--accent-color);
+}
+.social .link {
+  color: var(--color-text-white);
+}
+.footer {
+  background-color: var(--bg-color-footer);
+}
+.footer .title-color {
+  color: var(--color-text-white);
+}
+/*Кнопка*/
+.button {
+  color: var(--color-text-white);
+  background-color: var(--accent-color);
+  border: var(--accent-color);
+}
+/*css портфолио*/
+.body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+.portfolio .button {
+  color: var(--title-text-color);
+  background-color: var(--bg-color);
+}
+.portfolio .button:focus,
+.portfolio .button:hover {
+  color: var(--color-text-white);
+  background-color: var(--accent-color);
+}
+.portfolio .link {
+  color: var(--title-text-color);
+}
+.section .link {
+  color: var(--title-text-color);
+}
+
+/* Roboto (жирный, медиум, регуляр
+Raleway болд - 700 */
