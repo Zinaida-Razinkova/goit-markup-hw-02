@@ -172,20 +172,16 @@
   color: var(--accent-color);
 }
 
-/* .name .link:hover,
-.features .name .link:focus {
-  color: var(--accent-color);
-}
-.name .link {
-  color: var(--color-text-white);
-} */
-
 .footer {
   background-color: var(--bg-color-footer);
 }
 .footer .title-color {
   color: var(--color-text-white);
 }
+.contacts {
+  font-style: normal;
+}
+
 /*Кнопка*/
 .button {
   color: var(--color-text-white);
